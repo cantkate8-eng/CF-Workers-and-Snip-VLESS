@@ -1,12 +1,12 @@
 import { connect } from 'cloudflare:sockets';
 
 let proxyIP = '13.230.34.30'; // proxyip
-let yourUUID = '93bf61d9-3796-44c2-9b3a-49210ece2585';  // uuid
+let yourUUID = '10c140ba-1e9d-464c-92cf-1169cde81fbb';  // uuid
 
 // CDN
 let cfip = [
-    'mfa.gov.ua', 'saas.sin.fan', 'store.ubi.com','cf.130519.xyz','cf.008500.xyz', 
-    'cf.090227.xyz', 'cf.877774.xyz','cdns.doon.eu.org','sub.danfeng.eu.org','cf.zhetengsha.eu.org'
+    'mfa.gov.ua','saas.sin.fan','store.ubi.com','cf.130519.xyz','cf.008500.xyz', 
+    'cf.090227.xyz','staticdelivery.nexusmods.com','salla.sa','fuck.frii.site','cf.877774.xyz','cdns.doon.eu.org','epma.com','sub.danfeng.eu.org','cf.zhetengsha.eu.org'
 ]; // 在此感谢各位大佬维护的优选域名
 
 function getHomePageHTML(currentDomain) {
